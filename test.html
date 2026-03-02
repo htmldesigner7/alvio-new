@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .heal-wrapper {
+            position: relative;
+            background: #fff;
+            transition: background-color 0.6s ease;
+        }
+
+        .heal-container {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .letter-bg {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            height: 100vh;
+        }
+
+        .active-letter {
+            font-size: 40vw;
+            font-weight: 900;
+            color: rgba(0, 0, 0, 0.05);
+            line-height: 1;
+        }
+
+        .content-col {
+            flex: 1;
+            padding-right: 10%;
+        }
+
+        .heal-item {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            opacity: 0.2;
+            transform: translateY(50px);
+            transition: all 0.5s ease;
+        }
+
+        .heal-item span {
+            font-family: 'Inter', sans-serif;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .heal-item h2 {
+            font-size: 4rem;
+            margin: 10px 0;
+        }
+    </style>
+    <section class="heal-wrapper">
+        <div class="heal-container">
+            <div class="letter-bg">
+                <h1 class="active-letter">H</h1>
+            </div>
+            <div class="content-col">
+                <div class="heal-item" data-letter="H" data-color="#e3f2fd"> <span>01</span>
+                    <h2>Health</h2>
+                    <p>Our health initiatives resonate with every stakeholder. Patients have access to quality treatment
+                        while doctors improve lives with skillful medical practices.</p>
+                </div>
+                <div class="heal-item" data-letter="E" data-color="#e8f5e9"> <span>02</span>
+                    <h2>Excellence</h2>
+                    <p>A commitment to all stakeholders. Patients receive high-quality medicines and Doctors gain
+                        absolute trust in prescribing our formulations.</p>
+                </div>
+                <div class="heal-item" data-letter="A" data-color="#fff3e0"> <span>03</span>
+                    <h2>Accountability</h2>
+                    <p>Transparency in every interaction. From responsible procurement with suppliers to accountable
+                        business practices with partners.</p>
+                </div>
+                <div class="heal-item" data-letter="L" data-color="#f3e5f5"> <span>04</span>
+                    <h2>Longevity</h2>
+                    <p>Our pledge to sustainable relationships. Building careers and partnerships that stand the test of
+                        time and growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+</head>
+
+<body>
+    <div class="main-blob" id="trigger">ALVIO</div>
+    <div class="sub-pill" id="p1"></div>
+    <div class="sub-pill" id="p2"></div>
+    <div class="sub-pill" id="p3"></div>
+    <div class="sub-pill" id="p4"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script>         let isOpen = false; document.getElementById('trigger').addEventListener('click', () => { if (!isOpen) { gsap.to("#p1", { opacity: 1, x: -150, y: -150, duration: 0.6, ease: "back.out" }); gsap.to("#p2", { opacity: 1, x: 150, y: -150, duration: 0.6, ease: "back.out" }); gsap.to("#p3", { opacity: 1, x: -150, y: 150, duration: 0.6, ease: "back.out" }); gsap.to("#p4", { opacity: 1, x: 150, y: 150, duration: 0.6, ease: "back.out" }); } else { gsap.to(".sub-pill", { opacity: 0, x: 0, y: 0, duration: 0.4 }); } isOpen = !isOpen; });     </script>
+</body>
+
+</html>

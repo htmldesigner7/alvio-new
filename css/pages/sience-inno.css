@@ -1,0 +1,10 @@
+.mastering_img {
+    position: relative;
+}
+
+.mastering_img img {
+    position: absolute;
+    top: -12em;
+    left: 0;
+    z-index: -1;
+}

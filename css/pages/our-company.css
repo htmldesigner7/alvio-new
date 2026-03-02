@@ -1,0 +1,235 @@
+.company-counter-item .counter-number {
+  font-size: clamp(1.75rem, 3vw + 1rem, 3.375rem);
+  margin-bottom: 18px;
+}
+
+/* svg animation */
+.visio-mission-svg {
+  background: linear-gradient(135deg, #0a1f44 0%, #001845 100%);
+  padding: 60px;
+  border-radius: 24px;
+}
+
+.visio-mission-animation {
+  width: 100%;
+}
+
+.visio-mission-animation > g > path[stroke="#88B8E4"] {
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation:
+    stroke-draw 4.2s cubic-bezier(0.65, 0, 0.35, 1) forwards,
+    stroke-glow 3s ease-in-out infinite alternate 4.5s;
+}
+
+.principles-flex {
+  display: flex;
+  gap: 60px;
+}
+
+.principles-item {
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.principles-item .title-80 {
+  font-family: var(--para-font);
+  color: var(--slider-blue);
+  margin-bottom: 50px;
+}
+
+.principles-title {
+  font-size: 28px;
+  line-height: 34px;
+  color: var(--black-color);
+  font-family: var(--title-font);
+  margin: 20px 0;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3px;
+  width: 70%;
+}
+
+.beyond-section .row {
+  justify-content: space-between;
+}
+
+.beyond-img {
+  padding-right: 30px;
+}
+
+.beyond-content {
+  padding-left: 30px;
+}
+
+.vision-mission-imgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+.vision-mission-wrapper {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  align-items: center;
+  justify-items: center;
+  gap: 68px;
+  justify-content: center;
+}
+
+.vision-mission-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vision-mission-item {
+  position: relative;
+}
+
+.focus-icon {
+  transform: translate(190px, -17px);
+}
+
+.heart-icon {
+  transform: translate(-35px, 62px);
+}
+
+.vision-mission-title {
+  font-size: 28px;
+  color: var(--blue-heading);
+  font-family: var(--title-font);
+}
+
+.svg-decor-vision {
+  position: absolute;
+  transform: translate(0px, 13px);
+}
+
+.svg-decor-mission {
+  position: absolute;
+  top: 0;
+  transform: translate(-115px, 107px);
+}
+
+.vision-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Common ring behavior */
+.ring {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  will-change: transform, opacity;
+}
+
+/* Direction */
+.ring-cw {
+  animation-name: rotateScaleOpacityCW;
+}
+
+.ring-ccw {
+  animation-name: rotateScaleOpacityCCW;
+}
+
+/* Speed */
+.slow {
+  animation-duration: 14s;
+}
+
+.medium {
+  animation-duration: 10s;
+}
+
+.fast {
+  animation-duration: 6s;
+}
+
+/* Clockwise + scale + opacity */
+@keyframes rotateScaleOpacityCW {
+  0% {
+    transform: rotate(0deg) scale(0.8);
+    opacity: 0.5;
+  }
+
+  50% {
+    transform: rotate(180deg) scale(0.9);
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotate(360deg) scale(0.8);
+    opacity: 0.5;
+  }
+}
+
+/* Anti-clockwise + scale + opacity */
+@keyframes rotateScaleOpacityCCW {
+  0% {
+    transform: rotate(360deg) scale(0.8);
+    opacity: 0.5;
+  }
+
+  50% {
+    transform: rotate(180deg) scale(0.9);
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotate(0deg) scale(0.8);
+    opacity: 0.5;
+  }
+}
+
+/* Slide the decorative mission SVG left-to-right */
+.svg-decor-mission svg {
+  opacity: 0;
+  animation: fadeInSVG1 3s ease-in-out forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+}
+
+@keyframes fadeInSVG1 {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.svg-decor-vision svg {
+  opacity: 0;
+  animation: fadeInSVG2 3s ease-in-out forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+}
+
+@keyframes fadeInSVG2 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,17 @@
+.manu_card {
+    padding: 42px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.manu_card .title-34,
+.manu_card p {
+    color: var(--blue-heading);
+}
+
+.our_principles
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40PX 0;
+}
