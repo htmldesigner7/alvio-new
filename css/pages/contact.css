@@ -33,7 +33,7 @@
 
 .contact_items input {
   font-size: 18px;
-  list-style: 28px;
+  line-height: 28px;
   font-weight: 400;
   color: var(--grey-666);
   width: 100%;
@@ -41,6 +41,17 @@
   outline: none;
   border-bottom: 1px solid var(--grey-ddd);
   padding-bottom: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.contact_items input:hover,
+.contact_items textarea:hover {
+  border-bottom: 1px solid var(--blue-heading); 
+}
+
+.contact_items input:focus,
+.contact_items textarea:focus {
+  border-bottom: 1px solid var(--blue-heading); 
 }
 
 .contact_items textarea {

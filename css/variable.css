@@ -85,11 +85,12 @@ a {
   color: var(--color, var(--white-color));
   transition: all 0.3s ease;
   border-radius: 100px;
+  display: inline-block;
 }
 
 .com_btn2 {
-  border: 1px solid var(--black-color);
-  color: var(--black-color);
+  border: 1px solid var(--blue-heading);
+  color: var(--blue-heading);
   background: transparent;
 }
 
