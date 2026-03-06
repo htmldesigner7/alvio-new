@@ -4,7 +4,7 @@
         <img src="./images/director-header-img.webp" class="img-fluid" alt="page-header-img">
     </div>
     <div class="page-header-content p-x">
-        <div class="page-header-text">
+        <div class="page-header-text com_bg_blue">
             <p class="text-white">Home / Who We Are / Board of Directors</p>
             <h1 class="title-34 text--white mb-3">Leading with Scientific Integrity & Human Purpose.</h1>
             <p class="text-white page-header-para">Our leadership brings together decades of pharmaceutical expertise and a shared commitment to the H.E.A.L. values that define our organization.</p>
@@ -53,7 +53,7 @@
         </div>
         <div class="col-xl-7 col-md-12">
             <div class="leadership-content">
-                <h2 class="title-54 title--dark mb-54">Leadership Guiding Science, Ethics, and Growth</h2>
+                <h2 class="title-54 title--dark mb-40">Leadership Guiding Science, Ethics, and Growth</h2>
                 <p>Alvio Pharma’s Board of Directors provides strategic direction, governance oversight, and ethical leadership to ensure the company operates with integrity, accountability, and long-term vision. The Board plays a critical role in shaping organizational priorities, strengthening compliance, and aligning business growth with responsible healthcare practices.</p>
                 <p>The Board of Directors at Alvio Pharma brings together deep industry knowledge, operational expertise, and a shared commitment to responsible pharmaceutical development. Their collective oversight ensures:</p>
                 <ul>

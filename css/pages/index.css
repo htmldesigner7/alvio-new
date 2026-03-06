@@ -158,8 +158,8 @@
 }
 
 .state-accordion .accordion-item:last-child {
-  border-bottom: none;
-  border-radius: 0;
+  /* border-bottom: none;*/
+  border-radius: 0; 
 }
 
 .state-accordion .accordion-button {
@@ -167,7 +167,7 @@
   color: var(--grey-666);
   padding: 18px 0;
   box-shadow: none;
-  font-size: clamp(1rem, 3vw, 1.5rem);
+  font-size: 24px;
   font-weight: 400;
 }
 

@@ -4,7 +4,7 @@
         <img src="./images/company-header-img.webp" class="img-fluid" alt="page-header-img">
     </div>
     <div class="page-header-content p-x">
-        <div class="page-header-text">
+        <div class="page-header-text com_bg_blue">
             <p class="text-white">Home / Insights / Understanding Chronic Therapies: Why Long-Term Treatment Matters</p>
             <h1 class="title-34 text--white mb-3">Insights & Perspectives</h1>
             <p class="text-white page-header-para mb-0">The Alvio Insights platform is designed to support healthcare professionals with evidence-based articles, expert opinions, and scientific perspectives across cardiometabolic health and dermatology. Our goal is to simplify complex science, encourage informed clinical discussions, and share evolving healthcare trends—without promotional bias.</p>

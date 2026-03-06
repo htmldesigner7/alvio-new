@@ -1,10 +1,9 @@
 footer {
-  background-color: var(--black-color);
+ background-color: #222;
 }
 
 .footer-item {
-  background-color: var(--black-color);
-  padding: 39px 80px;
+  padding: 40px 80px;
   border-left: 1px solid #dddddd;
 }
 
@@ -135,7 +134,6 @@ footer {
 
 .bottom-footer {
   display: flex;
-  background-color: var(--black-color);
   margin-top: 1px;
   padding: 22px 0;
   border-top: 1px solid #dddddd;

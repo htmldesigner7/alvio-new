@@ -251,22 +251,22 @@
   width: 35%;
 }
 
-.tab-content {
+.mega_menu_content .tab-content {
   border-left: 1px solid var(--white-color);
   padding-left: 60px;
 }
 
-.tab-content ul {
+.mega_menu_content .tab-content ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.tab-content ul li {
+.mega_menu_content .tab-content ul li {
   margin-bottom: 30px;
 }
 
-.tab-content ul li a {
+.mega_menu_content .tab-content ul li a {
   font-size: 34px;
   line-height: 32px;
   font-weight: 400;

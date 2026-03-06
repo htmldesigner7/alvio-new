@@ -2,10 +2,10 @@
 
 <section class="page-header">
     <div>
-        <img src="./images/our-company-images/company-header-img.webp" class="img-fluid" alt="page-header-img">
+        <img src="./images/director-header-img.webp" class="img-fluid" alt="page-header-img">
     </div>
     <div class="page-header-content p-x">
-        <div class="page-header-text">
+        <div class="page-header-text com_bg_blue">
             <p class="text-white">Home / Contact</p>
             <h1 class="title-34 text--white">Get in Touch</h1>
             <p class="text-white page-header-para">If you are a medical professional, distributor, or institutional
@@ -33,7 +33,7 @@
             <p>Precision in Every Dose. Excellence in Every Batch.</p>
         </div>
         <div class="col-xl-8 col-lg-7 col-md-12">
-            <h2 class="title-54 title--blue mb-54">Advanced Manufacturing Facilities Designed for Global Healthcare</h2>
+            <h2 class="title-54 title--blue mb-40">Advanced Manufacturing Facilities Designed for Global Healthcare</h2>
 
             <p>Our manufacturing infrastructure is designed to meet the demands of modern pharmaceutical production
                 while maintaining absolute consistency, safety, and scalability. Each facility integrates automated
@@ -68,18 +68,22 @@
 
             <h5 class="title-24" style="color: var(--blue-heading);">Our Approach</h5>
             <ul>
-                <li>Biological Empathy: Unified management of the metabolic triad.</li>
-                <li>Algorithmic Precision: CPC Technology for steady-state stability.</li>
-                <li>Schedule M Compliant: Strict adherence to Indian FDA regulatory requirements.</li>
-                <li>Schedule M Compliant: Strict adherence to Indian FDA regulatory requirements.</li>
+                <li> <b>Biological Empathy:</b> Unified management of the metabolic triad.</li>
+                <li> <b>Algorithmic Precision:</b> CPC Technology for steady-state stability.</li>
+                <li> <b>Schedule M Compliant:</b> Strict adherence to Indian FDA regulatory requirements.</li>
+                <li> <b>Schedule M Compliant:</b> Strict adherence to Indian FDA regulatory requirements.</li>
             </ul>
             <div class="mt-40 ">
                 <a href="#" class="commo-btn bg-black btn-color-white">Discover All Products </a>
-                <a href="#" class="commo-btn-arrow bg-black btn-color-white"><svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.75001 7.75001L18.75 7.75001ZM18.75 7.75001L11.75 0.749999ZM18.75 7.75001L11.75 14.75Z" fill="white"/>
-<path d="M0.75001 7.75001L18.75 7.75001M18.75 7.75001L11.75 0.749999M18.75 7.75001L11.75 14.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-</a>
+                <a href="#" class="commo-btn-arrow bg-black btn-color-white"><svg width="20" height="16"
+                        viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0.75001 7.75001L18.75 7.75001ZM18.75 7.75001L11.75 0.749999ZM18.75 7.75001L11.75 14.75Z"
+                            fill="white" />
+                        <path d="M0.75001 7.75001L18.75 7.75001M18.75 7.75001L11.75 0.749999M18.75 7.75001L11.75 14.75"
+                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
             </div>
         </div>
     </div>
@@ -98,22 +102,26 @@
 
             <h5 class="title-24" style="color: var(--blue-heading);">Our Approach</h5>
             <ul>
-                <li>Biological Empathy: Unified management of the metabolic triad.</li>
-                <li>Algorithmic Precision: CPC Technology for steady-state stability.</li>
-                <li>Schedule M Compliant: Strict adherence to Indian FDA regulatory requirements.</li>
-                <li>Schedule M Compliant: Strict adherence to Indian FDA regulatory requirements.</li>
+                <li> <b>Biological Empathy:</b> Unified management of the metabolic triad.</li>
+                <li> <b>Algorithmic Precision:</b> CPC Technology for steady-state stability.</li>
+                <li> <b>Schedule M Compliant:</b> Strict adherence to Indian FDA regulatory requirements.</li>
+                <li> <b>Schedule M Compliant: </b> Strict adherence to Indian FDA regulatory requirements.</li>
             </ul>
             <div class="mt-40 ">
                 <a href="#" class="commo-btn bg-black btn-color-white">Discover All Products </a>
-                <a href="#" class="commo-btn-arrow bg-black btn-color-white"><svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.75001 7.75001L18.75 7.75001ZM18.75 7.75001L11.75 0.749999ZM18.75 7.75001L11.75 14.75Z" fill="white"/>
-<path d="M0.75001 7.75001L18.75 7.75001M18.75 7.75001L11.75 0.749999M18.75 7.75001L11.75 14.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-</a>
+                <a href="#" class="commo-btn-arrow bg-black btn-color-white"><svg width="20" height="16"
+                        viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0.75001 7.75001L18.75 7.75001ZM18.75 7.75001L11.75 0.749999ZM18.75 7.75001L11.75 14.75Z"
+                            fill="white" />
+                        <path d="M0.75001 7.75001L18.75 7.75001M18.75 7.75001L11.75 0.749999M18.75 7.75001L11.75 14.75"
+                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
             </div>
         </div>
 
-          <div class="col-md-6">
+        <div class="col-md-6">
             <img src="images/manufacturing.png" alt="images" class="img-fluid">
         </div>
 
@@ -122,14 +130,15 @@
 
 <section class="mt-100 mb-100">
     <div class="p-x">
-        <div class="row">
-            <div class="col-md-8">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-md-7">
                 <div class="state-content">
-                    <h2 class="title-54 title--blue mb-5">Our Principles are at the Heart of Our Production.</h2>
-                    <p>Our manufacturing philosophy is guided by core values that reflect our responsibility to
-                        patients, healthcare professionals, and global healthcare systems. Represented through our Globe
-                        Design, these values symbolize our interconnected approach to quality, ethics, and innovation
-                        across every market we serve.</p>
+                    <h2 class="title-54 title--blue mb-5">A Framework for Evidence-Led Therapeutic Decisions</h2>
+                    <p>Every molecule within the Alvio Pharma portfolio is selected through a structured clinical
+                        evaluation model designed to balance efficacy, safety, and real-world usability. Our selection
+                        matrix integrates gap analysis, pathway synergy, and adherence science to ensure that each
+                        therapy addresses unmet clinical needs while supporting long-term treatment success in chronic
+                        disease management.</p>
                 </div>
                 <div class="state-accordion mt-40">
                     <div class="accordion" id="accordionExample">
@@ -137,13 +146,16 @@
                             <h4 class="accordion-header" id="headingOne">
                                 <button class="accordion-button title-34" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Health First
+
+                                    <img src="./images/men-icon.png" alt="men icon">
+                                    <span>Clinical Gap Analysis</span>
                                 </button>
                             </h4>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Dedication to improving patient outcomes through purity.</p>
+                                    <p>Targeting molecules where existing therapies show suboptimal bioavailability or
+                                        inconsistent outcomes.</p>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +164,8 @@
                                 <button class="accordion-button title-34 collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                                     aria-controls="collapseTwo">
-                                    Excellence
+                                    <img src="./images/men-icon.png" alt="men icon">
+                                    <span>Adherence Potential</span>
                                 </button>
                             </h4>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -167,25 +180,11 @@
                                 <button class="accordion-button title-34 collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
                                     aria-controls="collapseThree">
-                                    Accountability
+                                    <img src="./images/men-icon.png" alt="men icon">
+                                    <span>Physiological Synergy</span>
                                 </button>
                             </h4>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Alvio Pharma’s national operations are the foundation of our growth story.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingFour">
-                                <button class="accordion-button title-34 collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
-                                    aria-controls="collapseFour">
-                                    Longevity
-                                </button>
-                            </h4>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <p>Alvio Pharma’s national operations are the foundation of our growth story.</p>
@@ -197,7 +196,45 @@
             </div>
 
             <div class="col-md-4">
-                <img src="images/our_principles.png" alt="images" class="img-fluid">
+                <div class="vision-mission-item">
+                    <div class="svg-wrapper">
+                        <svg width="591" height="600" viewBox="0 0 591 600" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+
+                            <g clip-path="url(#clip0_603_1557)">
+
+                                <!-- Ring 1 - Clockwise -->
+                                <path class="ring ring-cw slow"
+                                    d="M336.046 599.363C475.024 599.363 587.689 486.439 587.689 347.141C587.689 207.843 475.024 94.9194 336.046 94.9194C197.067 94.9194 84.4023 207.843 84.4023 347.141C84.4023 486.439 197.067 599.363 336.046 599.363Z"
+                                    stroke="#307ABD" stroke-width="1.29662" stroke-miterlimit="10" />
+
+                                <!-- Ring 2 - Anti Clockwise -->
+                                <path class="ring ring-ccw fast"
+                                    d="M502.263 469.548C609.261 362.304 609.261 188.427 502.263 81.1826C395.265 -26.0615 221.786 -26.0615 114.788 81.1826C7.78994 188.427 7.78994 362.304 114.788 469.548C221.786 576.792 395.265 576.792 502.263 469.548Z"
+                                    stroke="#307ABD" stroke-width="1.29662" stroke-miterlimit="10" />
+
+                                <!-- Ring 3 - Clockwise -->
+                                <path class="ring ring-cw medium"
+                                    d="M446.929 500.217C549.081 397.83 549.081 231.828 446.929 129.441C344.777 27.054 179.155 27.054 77.003 129.441C-25.1492 231.828 -25.1492 397.83 77.003 500.217C179.155 602.604 344.777 602.604 446.929 500.217Z"
+                                    stroke="#307ABD" stroke-width="1.29662" stroke-miterlimit="10" />
+
+                            </g>
+
+                            <defs>
+                                <clipPath id="clip0_603_1557">
+                                    <rect width="590.025" height="600" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                    </div>
+
+                    <img src="./images/time-icon.png" class="img-fluid heart-icon" alt="Focus Icon">
+                    <img src="./images/men-icon.png" class="img-fluid men-icon" alt="Focus Icon">
+                    <img src="./images/alvio-logo.png" class="img-fluid alvio-logo" alt="Alvio Logo">
+                    <img src="./images/synergy-icon.png" class="img-fluid puzzle-icon" alt="Heart Icon">
+
+                </div>
             </div>
         </div>
     </div>

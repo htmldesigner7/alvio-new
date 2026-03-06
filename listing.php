@@ -2,10 +2,10 @@
 
 <section class="page-header">
     <div>
-        <img src="./images/our-company-images/company-header-img.webp" class="img-fluid" alt="page-header-img">
+        <img src="./images/company-header-img.webp" class="img-fluid" alt="page-header-img">
     </div>
     <div class="page-header-content p-x">
-        <div class="page-header-text">
+        <div class="page-header-text com_bg_blue">
             <p class="text-white">Home / Contact</p>
             <h1 class="title-34 text--white">Get in Touch</h1>
             <p class="text-white page-header-para">If you are a medical professional, distributor, or institutional
@@ -33,7 +33,7 @@
             <p>Precision in Every Dose. Excellence in Every Batch.</p>
         </div>
         <div class="col-xl-8 col-lg-7 col-md-12">
-            <h2 class="title-54 title--blue mb-54">Advanced Manufacturing Facilities Designed for Global Healthcare</h2>
+            <h2 class="title-54 title--blue mb-40">Advanced Manufacturing Facilities Designed for Global Healthcare</h2>
 
             <p>Our manufacturing infrastructure is designed to meet the demands of modern pharmaceutical production
                 while maintaining absolute consistency, safety, and scalability. Each facility integrates automated
@@ -49,7 +49,7 @@
                 manufacturing. Built with future-ready systems and sustainability-focused operations, our facilities
                 enable us to scale efficiently while maintaining uncompromised quality standards.</p>
             <div class="mt-40">
-                <a href="#" class="commo-btn bg-black btn-color-white">
+                <a href="#" class="commo-btn bg-black btn-color-white" data-bs-toggle="dropdown" aria-expanded="false">
                     <span> Find by Brand</span>
                     <span><svg width="25" height="24" viewBox="0 0 25 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -59,13 +59,21 @@
                         </svg>
                     </span>
                 </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Rasafin Dusting Powder1</a></li>
+                    <li><a class="dropdown-item" href="#">Rasafin Dusting Powder2
+                        </a></li>
+                    <li><a class="dropdown-item" href="#">Rasafin Dusting Powder3
+                        </a></li>
+                    <li><a class="dropdown-item" href="#">Separated link4</a></li>
+                </ul>
             </div>
         </div>
     </div>
 </section>
 
-<section class="find_brand p-x mt-100">
-    <h2 class="title-54" style="color: var(--black-color);">Find by Brand</h2>
+<section class="find_brand p-x mt-100 mb-100">
+    <h2 class="title-54 title--dark">Find by Brand</h2>
     <div class="search-wrapper">
         <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
             xmlns="http://www.w3.org/2000/svg">
@@ -107,8 +115,8 @@
             <span>y</span>
             <span>z</span>
         </div>
-        <a href="#" class="commo-btn bg-black btn-color-white">
-            <span> Find by Brand</span>
+        <a href="#" class="commo-btn bg-black btn-color-white" data-bs-toggle="dropdown" aria-expanded="false">
+            <span>Alphabetical - A-Z</span>
             <span><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M4.675 7.675C4.575 7.75 4.5 8.125 4.5 8.475C4.5 8.975 5.375 10.025 8.5 13.125L12.5 17.125L16.5 13.125C20.1 9.55 20.5 9.05 20.45 8.375C20.375 7.75 20.25 7.6 19.65 7.55C19 7.475 18.525 7.85 15.7 10.675L12.5 13.875L9.3 10.675C6.875 8.25 5.975 7.5 5.475 7.5C5.125 7.5 4.75 7.575 4.675 7.675Z"
@@ -116,6 +124,15 @@
                 </svg>
             </span>
         </a>
+
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Rasafin Dusting Powder</a></li>
+            <li><a class="dropdown-item" href="#">Rasafin Dusting Powder
+                </a></li>
+            <li><a class="dropdown-item" href="#">Rasafin Dusting Powder
+                </a></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
     </div>
 
     <div class="brand-listing">
@@ -134,9 +151,9 @@
                     </div>
                 </div>
                 <div class="brand_item_rt">
-                    <p class="title-24" style="color: var(--black-color);">Lorem ipsum </p>
+                    <p class="title-24">Lorem ipsum </p>
                     <a href="#" class="title-24">
-                        <span>view details</span>
+                        <span class="text--para">view details</span>
                         <span class="ms-3">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -152,7 +169,7 @@
                 </div>
             </div>
 
-              <div class="brand_item">
+            <div class="brand_item">
                 <div class="brand_item_lt">
                     <div class="brand_item_img">
                         <img class="img-fluid" src="images/filter-img1.png" alt="img">
@@ -167,7 +184,7 @@
                 <div class="brand_item_rt">
                     <p class="title-24" style="color: var(--black-color);">Lorem ipsum </p>
                     <a href="#" class="title-24">
-                        <span>view details</span>
+                        <span class="text--para">view details</span>
                         <span class="ms-3">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -183,7 +200,7 @@
                 </div>
             </div>
 
-              <div class="brand_item">
+            <div class="brand_item">
                 <div class="brand_item_lt">
                     <div class="brand_item_img">
                         <img class="img-fluid" src="images/filter-img1.png" alt="img">
@@ -198,7 +215,7 @@
                 <div class="brand_item_rt">
                     <p class="title-24" style="color: var(--black-color);">Lorem ipsum </p>
                     <a href="#" class="title-24">
-                        <span>view details</span>
+                        <span class="text--para">view details</span>
                         <span class="ms-3">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -214,7 +231,7 @@
                 </div>
             </div>
 
-              <div class="brand_item">
+            <div class="brand_item">
                 <div class="brand_item_lt">
                     <div class="brand_item_img">
                         <img class="img-fluid" src="images/filter-img1.png" alt="img">
@@ -229,7 +246,7 @@
                 <div class="brand_item_rt">
                     <p class="title-24" style="color: var(--black-color);">Lorem ipsum </p>
                     <a href="#" class="title-24">
-                        <span>view details</span>
+                        <span class="text--para">view details</span>
                         <span class="ms-3">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -246,7 +263,7 @@
             </div>
         </div>
 
-         <div class="mt-100">
+        <div class="mt-100">
             <h3 class="title-54 mb-40">B</h3>
             <div class="brand_item">
                 <div class="brand_item_lt">
@@ -263,7 +280,7 @@
                 <div class="brand_item_rt">
                     <p class="title-24" style="color: var(--black-color);">Lorem ipsum </p>
                     <a href="#" class="title-24">
-                        <span>view details</span>
+                        <span class="text--para">view details</span>
                         <span class="ms-3">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -280,7 +297,7 @@
             </div>
         </div>
 
-         <div class="mt-100">
+        <div class="mt-100">
             <h3 class="title-54 mb-40">C</h3>
             <div class="brand_item">
                 <div class="brand_item_lt">
@@ -297,7 +314,7 @@
                 <div class="brand_item_rt">
                     <p class="title-24" style="color: var(--black-color);">Lorem ipsum </p>
                     <a href="#" class="title-24">
-                        <span>view details</span>
+                        <span class="text--para">view details</span>
                         <span class="ms-3">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">

@@ -25,7 +25,7 @@
 
 
     <!-- 1️⃣ Variables (colors, fonts, spacing) -->
-    <link rel="stylesheet" href="css/variable.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- 3️⃣ Layout CSS -->
     <link rel="stylesheet" href="css/header.css">

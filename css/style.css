@@ -32,6 +32,11 @@ a {
   cursor: pointer;
 }
 
+::selection {
+  color: var(--white-color);
+  background-color: var(--black-color);
+}
+
 /*=========== Heading part ============= */
 
 .title-80 {
@@ -143,6 +148,10 @@ a {
   align-items: center;
   height: 160px;
   width: 160px;
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
 }
 
 /*=========== Color name part ============= */
@@ -225,7 +234,7 @@ a {
 }
 
 .mb-40 {
-  margin-bottom: clamp(1rem, 4vw, 2.5rem);
+  margin-bottom: 40px;
 }
 
 /* ============ Inner header in website ================= */
@@ -264,7 +273,6 @@ a {
 }
 
 .page-header-text {
-  background-color: var(--blue-heading);
   text-align: center;
   padding: 21px 0;
   width: 80%;
@@ -274,7 +282,6 @@ a {
 .page-header-content {
   display: flex;
   justify-content: center;
-  column-gap: 30px;
   margin-top: -4em;
   position: relative;
   z-index: 99;

@@ -66,15 +66,29 @@
   padding-left: 30px;
 }
 
-.vision-mission-imgs {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+.alvio-logo {
   position: absolute;
-  top: 20%;
-  left: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heart-icon {
+  position: absolute;
+  bottom: 3em;
+  left: 15em;
+}
+
+.men-icon {
+  position: absolute;
+  top: 8em;
+  left: 10em;
+}
+
+.puzzle-icon {
+  position: absolute;
+  top: 15em;
+  right: 3em;
 }
 
 .vision-mission-wrapper {
@@ -94,14 +108,6 @@
 
 .vision-mission-item {
   position: relative;
-}
-
-.focus-icon {
-  transform: translate(190px, -17px);
-}
-
-.heart-icon {
-  transform: translate(-35px, 62px);
 }
 
 .vision-mission-title {
@@ -232,4 +238,232 @@
   to {
     opacity: 1;
   }
+}
+
+/* our company last section  */
+
+.sco_wra_our_val {
+  position: relative;
+  height: 300vh;
+}
+
+.sti_con_our_val {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.our_val_head {
+  text-align: center;
+}
+
+.our_val_head h3 {
+  color: #373435;
+  text-align: center;
+  font-family: var(--title-font);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  margin: 18px 0;
+}
+
+.our_val_main .nav-links {
+  font-size: 0.9rem;
+  color: #777;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.our_val_main .nav-links span {
+  transition: color 0.3s ease;
+}
+
+.our_val_main .nav-links span.active {
+  color: #3178c6;
+}
+
+.our_val_main .content-area {
+  display: flex;
+  gap: 80px;
+  max-width: 1500px;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+}
+
+.our_val_main .left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our_val_main .big-letter {
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
+  color: #bde0ff;
+  font-family: var(--para-font);
+  font-size: 600px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 610px;
+  letter-spacing: -12px;
+}
+
+.our_val_main .right-side {
+  transition: opacity 0.4s ease;
+}
+
+.our_val_main .fade-out {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.our_val_main {
+  padding: 24px 0;
+}
+
+/* last section anition  */
+
+.bab-container {
+  max-width: 1475px;
+  margin: 0 auto;
+  position: relative;
+  padding: 40px 20px;
+}
+
+.bab-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  z-index: 2;
+}
+
+.bab-col-side {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bab-col-side-left,
+.bab-col-side-right {
+  margin-top: 130px;
+}
+
+.bab-col-center {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bab-col-side-bottom {
+  width: 100%;
+  margin-top: 130px;
+}
+
+/* Circles Styling */
+.circle-small {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  background-color: #eaf3fe;
+  margin-bottom: 40px;
+}
+
+.circle-large {
+  width: 360px;
+  height: 360px;
+  background-color: #eaf3fe;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bab-svg {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* DOT ANIMATION CSS */
+.animated-line {
+  stroke: #307abd;
+  stroke-width: 4;
+  fill: none;
+  stroke-dasharray: 12, 12;
+  animation: moveDots 1.5s linear infinite;
+}
+
+@keyframes moveDots {
+  from {
+    stroke-dashoffset: 24;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* --- SCROLL ANIMATION CSS --- */
+
+/* Initially hide the lines so they don't look weird without the circles */
+.bab-svg {
+  opacity: 0;
+  transition: opacity 1s ease-in-out 0.8s;
+  /* Lines delayed fade-in */
+}
+
+/* Base state for all 3 boxes (Hidden, scaled down, and moved towards center) */
+.bab-col-side-left,
+.bab-col-side-right,
+.bab-col-side-bottom {
+  opacity: 0;
+  transition: all 1.2s cubic-bezier(0.25, 1, 0.5, 1);
+  /* Smooth bouncy effect */
+}
+
+/* specific directions pointing towards the center logo */
+.bab-col-side-left {
+  transform: translate(200px, -80px) scale(0.2);
+}
+
+.bab-col-side-right {
+  transform: translate(-200px, -80px) scale(0.2);
+}
+
+.bab-col-side-bottom {
+  transform: translateY(-150px) scale(0.2);
+}
+
+/* --- ACTIVE STATE (When scrolled into view) --- */
+.bab-container.show-animation .bab-col-side-left,
+.bab-container.show-animation .bab-col-side-right,
+.bab-container.show-animation .bab-col-side-bottom {
+  opacity: 1;
+  transform: translate(0, 0) scale(1);
+}
+
+.bab-container.show-animation .bab-svg {
+  opacity: 1;
 }

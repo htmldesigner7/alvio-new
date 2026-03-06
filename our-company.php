@@ -4,12 +4,11 @@
         <img src="./images/company-header-img.webp" class="img-fluid" alt="page-header-img">
     </div>
     <div class="page-header-content p-x">
-        <div class="page-header-text">
+        <div class="page-header-text com_bg_blue">
             <p class="text-white">Home / Who We Are / Our Company</p>
             <h1 class="title-34 text--white mb-3">Advancing Science Caring for Life.</h1>
-            <p class="text-white page-header-para">Alvio Pharma partners with healthcare professionals to develop
-                science-backed medicines guided by ethics, innovation, and global quality standards — creating therapies
-                that inspire trust and deliver measurable impact.</p>
+            <p class="text-white page-header-para">A new generation pharmaceutical company committed to improving lives
+                through innovative healthcare solutions, ethical practices, and unwavering dedication to excellence.</p>
         </div>
         <div class="page-header-btn">
             <a href="#">
@@ -26,12 +25,12 @@
     </div>
 </section>
 <section class="intro-section p-x mt-100">
-    <div class="row mb-54">
+    <div class="row mb-40">
         <div class="col-xl-4 col-lg-5 col-md-12">
             <p>About Alvio Pharma</p>
         </div>
         <div class="col-xl-8 col-lg-7 col-md-12">
-            <h2 class="title-54 title--blue mb-54">A Purpose-Driven Pharmaceutical Organization</h2>
+            <h2 class="title-54 title--blue mb-40">A Purpose-Driven Pharmaceutical Organization</h2>
 
             <p>Alvio Pharmaceuticals is a new generation Pharmaceutical Company engaged in the marketing of Finished
                 Pharmaceutical Formulations. Alvio has committed itself to the task of Improving Lives by providing high
@@ -85,8 +84,8 @@
 <?php include 'vision-mission.php'; ?>
 
 <section class="explore-state p-x mt-100">
-    <div class="row">
-        <h2 class="title-54 mb-4">Expanding Horizons, Building Healthier Futures.</h2>
+    <div class="row align-items-center">
+        <h2 class="title-54 mb-40">Expanding Horizons, Building Healthier Futures.</h2>
         <p class="mb-3">Alvio Pharma’s national operations are the foundation of our growth story. With a team of over
             300+ motivated professionals and a network that reaches 35,000+ healthcare providers across India, we are
             committed to making advanced, affordable healthcare accessible to every community.</p>
@@ -244,12 +243,12 @@
 </section>
 
 <section class="principles-section p-x mt-100">
-    <div class="row mb-40">
+    <div class="row">
         <div class="col-xl-4 col-lg-5 col-md-12">
             <p>Our Purpose</p>
         </div>
         <div class="col-xl-8 col-lg-7 col-md-12">
-            <h2 class="title-54 title--blue mb-54">Improving Lives</h2>
+            <h2 class="title-54 title--blue mb-40">Improving Lives</h2>
 
             <p class="mb-0">”Our purpose “Improving Lives”’ encapsulates our commitment to making a positive impact
                 across various
@@ -259,7 +258,7 @@
                 in every facet of our operations.”</p>
         </div>
     </div>
-    <div class="principles-flex">
+    <div class="principles-flex mt-40">
         <div class="principles-item">
             <p class="title-80">01.</p>
             <p class="title--blue mb-0">Reputation to Cure</p>
@@ -293,5 +292,225 @@
     </div>
 </section>
 
+<section class="our_val_main p-x com_bg_light_blue mt-100">
+    <div class="sco_wra_our_val" id="scrollWrapper">
+        <div class="sti_con_our_val">
+            <div class="our_val_head">
+                <h2 class="title-54 title--blue">Our Values</h2>
+                <h3>H. E. A. L.</h3>
+                <div class="nav-links">
+                    <span id="nav-0" class="active">Health</span> &bull;
+                    <span id="nav-1">Excellence</span> &bull;
+                    <span id="nav-2">Accountability</span> &bull;
+                    <span id="nav-3">Longevity</span>
+                </div>
+            </div>
+
+            <div class="content-area">
+                <div class="left-side">
+                    <div class="big-letter" id="displayLetter">H</div>
+                </div>
+                <div class="right-side" id="rightContent">
+                    <div class="title-24 title--blue mb-2" id="displayNum">01</div>
+                    <div class="title-54 mb-40 title--dark" id="displayTitle">Health</div>
+                    <div class="description" id="displayDesc">
+                        Our health initiatives resonate with every stakeholder. Patients have access to quality and
+                        affordable treatment, while doctors improve patient health with skillful medical practices.
+                        Channel partners benefit from widely available channels, suppliers witness predictable and
+                        mutual growth, and employees thrive in a workplace encouraging continuous personal and
+                        professional development.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<section class="mt-100 p-x">
+    <div class="mb-40 text-center">
+        <h2 class="title-54 title--blue mb-2">Our Values</h2>
+        <p>Our Group Companies</p>
+    </div>
+    <div class="man_par_slider">
+        <img class="img-fluid" src="./images/manufacturing-partners1.webp" alt="manufacturing partners">
+        <img class="img-fluid" src="./images/manufacturing-partners2.webp" alt="manufacturing partners">
+        <img class="img-fluid" src="./images/manufacturing-partners3.webp" alt="manufacturing partners">
+    </div>
+</section>
+
+<section class="mt-100 p-x">
+    <div class="mb-40 text-center">
+        <h2 class="title-54 title--blue mb-2">Believe, Adapt, and Behave</h2>
+        <p>We encapsulate our core values through B.A.B Believe,
+            Adapt, and Behave, creating a dynamic and purpose-driven organizational culture.</p>
+    </div>
+
+    <div class="bab-container">
+
+        <svg class="bab-svg" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+            <path class="animated-line" d="M 200 50 L 600 50" />
+
+            <path class="animated-line" d="M 1000 50 L 600 50" />
+
+            <path class="animated-line" d="M 600 200 L 600 420" />
+        </svg>
+
+        <div class="bab-grid">
+            <div class="bab-col-side bab-col-side-left">
+                <div class="circle-small">BELIEVE</div>
+                <p class="bab-text">We believe in the power of healthcare to transform lives. Our conviction drives us
+                    to develop and deliver medicines that make a real difference in patient outcomes.</p>
+            </div>
+
+            <div class="bab-col-center">
+                <div class="circle-large">
+                    <img src="./images/logo_red.svg" alt="ALVIO Logo" style="max-width: 180px;">
+                </div>
+
+                <div class="bab-col-side bab-col-side-bottom">
+                    <div class="circle-small">ADAPT</div>
+                    <p class="bab-text">We adapt to the ever-changing healthcare landscape, embracing new technologies,
+                        responding to market needs, and evolving our practices to stay at the forefront.</p>
+                </div>
+            </div>
+
+            <div class="bab-col-side bab-col-side-right">
+                <div class="circle-small">BEHAVE</div>
+                <p class="bab-text">We behave with integrity, ethics, and professionalism in all our interactions. Our
+                    conduct reflects our values and builds trust with every stakeholder we engage with.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Observer setup karna
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Jab section screen par aaye, 'show-animation' class add karein
+                entry.target.classList.add('show-animation');
+
+                // (Optional) Agar aap chahte hain ki animation sirf ek hi baar ho, 
+                // toh niche wali line ko uncomment kar dein:
+                // observer.unobserve(entry.target); 
+            } else {
+                // Jab section screen se bahar jaye, class hata dein 
+                // taaki wapas scroll karne par firse animate ho
+                entry.target.classList.remove('show-animation');
+            }
+        });
+    }, {
+        threshold: 0.3 // Jab section 30% screen par dikhe tab trigger hoga
+    });
+
+    // Container ko observe karna
+    const container = document.querySelector('.bab-container');
+    if (container) {
+        observer.observe(container);
+    }
+});
+</script>
+
+
 <?php include 'top-footer.php'; ?>
+
+<script>
+const healData = [{
+        letter: "H",
+        num: "01",
+        title: "Health",
+        desc: "Our health initiatives resonate with every stakeholder. Patients have access to quality and affordable treatment, while doctors improve patient health with skillful medical practices. Channel partners benefit from widely available channels, suppliers witness predictable and mutual growth, and employees thrive in a workplace encouraging continuous personal and professional development.",
+    },
+    {
+        letter: "E",
+        num: "02",
+        title: "Excellence",
+        desc: "We strive for excellence in every aspect of our operations. By constantly pushing the boundaries of innovation and quality, we ensure that our products and services remain at the forefront of the industry, delivering unmatched value to all those who depend on us.",
+    },
+    {
+        letter: "A",
+        num: "03",
+        title: "Accountability",
+        desc: "We hold ourselves to the highest standards of integrity and transparency. We take full responsibility for our actions and decisions, fostering an environment of deep trust with our patients, partners, and the broader communities we serve.",
+    },
+    {
+        letter: "L",
+        num: "04",
+        title: "Longevity",
+        desc: "Our vision extends far into the future. We are deeply committed to sustainable practices that protect our environment and ensure enduring success, leaving a lasting, positive impact on society for generations to come.",
+    },
+];
+
+// DOM Elements
+const scrollWrapper = document.getElementById("scrollWrapper");
+const displayLetter = document.getElementById("displayLetter");
+const displayNum = document.getElementById("displayNum");
+const displayTitle = document.getElementById("displayTitle");
+const displayDesc = document.getElementById("displayDesc");
+const rightContent = document.getElementById("rightContent");
+
+let currentIndex = 0;
+let isAnimating = false;
+
+window.addEventListener("scroll", () => {
+    // Get the exact position of the wrapper relative to the viewport
+    const wrapperRect = scrollWrapper.getBoundingClientRect();
+
+    // The maximum amount we can scroll inside the wrapper
+    const maxScroll = scrollWrapper.offsetHeight - window.innerHeight;
+
+    // How far we've scrolled past the top of the wrapper
+    // wrapperRect.top becomes negative as we scroll down
+    const scrolledDistance = -wrapperRect.top;
+
+    // Calculate progress (from 0 to 1)
+    let progress = scrolledDistance / maxScroll;
+
+    // Clamp the progress so it stays strictly between 0 and 1
+    progress = Math.max(0, Math.min(1, progress));
+
+    // Determine the new index based on 4 sections
+    // Multiplied by 3.99 to prevent it from hitting 4 and causing an error at 100% progress
+    let newIndex = Math.floor(progress * 3.99);
+
+    // Only update the DOM if the index has changed and an animation isn't already running
+    if (newIndex !== currentIndex && !isAnimating) {
+        isAnimating = true;
+
+        // Add fade out effect
+        displayLetter.classList.add("fade-out");
+        rightContent.classList.add("fade-out");
+
+        setTimeout(() => {
+            // Update content
+            displayLetter.textContent = healData[newIndex].letter;
+            displayNum.textContent = healData[newIndex].num;
+            displayTitle.textContent = healData[newIndex].title;
+            displayDesc.textContent = healData[newIndex].desc;
+
+            // Update Navigation Active state
+            document.getElementById(`nav-${currentIndex}`).classList.remove("active");
+            document.getElementById(`nav-${newIndex}`).classList.add("active");
+
+            // Remove fade out effect to fade back in
+            displayLetter.classList.remove("fade-out");
+            rightContent.classList.remove("fade-out");
+
+            currentIndex = newIndex;
+
+            // Wait slightly longer than the CSS transition before allowing another scroll trigger
+            setTimeout(() => {
+                isAnimating = false;
+            }, 400);
+
+        }, 200);
+    }
+});
+</script>
+
 <?php include 'footer.php'; ?>

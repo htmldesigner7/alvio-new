@@ -5,12 +5,13 @@
         <img src="./images/company-header-img.webp" class="img-fluid" alt="page-header-img">
     </div>
     <div class="page-header-content p-x">
-        <div class="page-header-text">
+        <div class="page-header-text com_bg_blue">
             <p class="text-white">Home / Manufacturing</p>
             <h1 class="title-34 text--white">Manufacturing & Quality</h1>
-            <p class="text-white page-header-para">At Alvio Pharma, quality is not a department; it is our core
-                identity. Our manufacturing philosophy is built on the belief that patients deserve nothing less than
-                absolute purity and therapeutic consistency.</p>
+            <p class="text-white page-header-para">At Alvio Pharma, quality is built through strong systems and trusted
+                partners. Our formulations are supported by compliance-driven manufacturing associates Salud Care India
+                Limited and Stelvio Healthcare to ensure consistency, safety, and reliability.
+            </p>
         </div>
         <div class="page-header-btn">
             <a href="#">
@@ -30,24 +31,23 @@
 <section class="intro-section p-x mt-100">
     <div class="row">
         <div class="col-xl-4 col-lg-5 col-md-12">
-            <p>Precision in Every Dose. Excellence in Every Batch.</p>
+            <p>Manufacturing Partners: <br />
+                Salud Care India Limited | Stelvio Healthcare
+            </p>
         </div>
         <div class="col-xl-8 col-lg-7 col-md-12">
-            <h2 class="title-54 title--blue mb-54">Advanced Manufacturing Facilities Designed for Global Healthcare</h2>
+            <h2 class="title-54 title--blue mb-40">Quality-Driven Manufacturing Through Trusted Partners
+            </h2>
 
-            <p>Our manufacturing infrastructure is designed to meet the demands of modern pharmaceutical production
-                while maintaining absolute consistency, safety, and scalability. Each facility integrates automated
-                systems, precision-controlled environments, and validated production lines that support high-quality
-                formulation development across multiple therapeutic segments.</p>
+            <p>Alvio Pharmaceuticals is engaged in the ethical marketing of finished pharmaceutical formulations across
+                India. To ensure dependable quality and consistent availability, we collaborate with carefully evaluated
+                manufacturing partners that follow documented systems and compliance-led operations.
+            </p>
 
-            <p>Every stage — from material handling and formulation to packaging and dispatch — is executed within
-                strictly monitored environments. Automation minimizes variability, enhances accuracy, and ensures that
-                every batch produced reflects uniformity, reliability, and compliance with international manufacturing
-                benchmarks.</p>
+            <p>Our partner ecosystem includes Salud Care India Limited and Stelvio Healthcare, enabling us to support
+                diverse dosage forms and therapeutic needs while maintaining strong standards for process discipline,
+                documentation, and batch-level quality checks.</p>
 
-            <p>Beyond capacity and technology, our infrastructure reflects a long-term commitment to responsible
-                manufacturing. Built with future-ready systems and sustainability-focused operations, our facilities
-                enable us to scale efficiently while maintaining uncompromised quality standards.</p>
         </div>
 
         <div class="row mt-40">
@@ -91,21 +91,30 @@
         </div>
 
         <div class="col-md-6 ps-md-5">
-            <h2 class="title-54" style="color: var(--black-color);">Zero-Compromise Quality Management.</h2>
-            <p>Our Quality Management System (QMS) governs every stage of the product lifecycle—from raw material
-                sourcing (API) to finished product distribution. We don't just meet standards; we set them.</p>
-            <p>Quality management at Alvio Pharma is a comprehensive, system-driven discipline embedded into every
-                aspect of manufacturing. Our integrated Quality Management System (QMS) governs all processes — ensuring
-                compliance, traceability, and continuous improvement throughout the product lifecycle.</p>
-            <p>A realistic pharmaceutical QC laboratory showing scientists conducting analytical testing using HPLC
-                equipment, stability chambers, and digital documentation — clean, professional, and compliance-focused.
+            <h2 class="title-54 title--dark mb-40">Zero-Compromise Quality Oversight</h2>
+            <p>Quality oversight is central to how Alvio operates. From partner evaluation and documentation review to
+                batch release checks and continuous improvement, our approach is designed to support consistency and
+                patient trust.
             </p>
-            <h5>Our Certifications:</h5>
-            <ul>
-                <li>WHO-GMP Certified: Globally recognized Good Manufacturing Practices.</li>
-                <li>ISO 9001:2015: International standards for quality management systems.</li>
-                <li>Schedule M Compliant: Strict adherence to Indian FDA regulatory requirements.</li>
-            </ul>
+            <p>Working with Salud Care India Limited and Stelvio Healthcare, we align quality expectations across
+                manufacturing, testing, documentation, and distribution readiness so every product delivered to the
+                market reflects our commitment to reliability.
+            </p>
+
+            <div class="mt-40">
+                <div class="btn_main">
+                    <a href="#" class="commo-btn">Discover Our Manufacturing Unit </a>
+                    <a href="#" class="commo-btn-arrow"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.750118 13.478L13.478 0.750116L0.750118 13.478ZM13.478 0.750116H3.57852H13.478ZM13.478 0.750116V10.6496V0.750116Z"
+                                fill="white" />
+                            <path d="M0.750118 13.478L13.478 0.750116M13.478 0.750116H3.57852M13.478 0.750116V10.6496"
+                                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -187,7 +196,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
 
             <div class="col-md-4">
@@ -198,7 +207,7 @@
 </section>
 
 <section class="p-x mt-100 text-center mb-100">
-    <h2 class="title-54 title--blue mb-54" style="color: var(--black-color);">Where Science Shapes Manufacturing
+    <h2 class="title-54 title--dark mb-40">Where Science Shapes Manufacturing
         Precision</h2>
 
     <p>Our Research & Laboratory operations serve as the scientific backbone of our manufacturing ecosystem. Through
@@ -209,22 +218,21 @@
         maintain therapeutic performance throughout a product’s lifecycle.</p>
 
     <p class="mb-0">Collaboration between R&D, Quality, and Manufacturing teams ensures seamless translation of
-        scientific insight
-        into scalable, compliant production. This integrated approach strengthens process efficiency, reduces
-        variability, and supports continuous product improvement. By aligning research with real-world clinical
+        scientific insight into scalable, compliant production. This integrated approach strengthens process efficiency,
+        reduces variability, and supports continuous product improvement. By aligning research with real-world clinical
         requirements, we create formulations that not only meet regulatory standards — but also enhance patient
         adherence and long-term outcomes.</p>
-    <div class="mt-40">
-        <a href="#" class="commo-btn bg-black btn-color-white">Discover Our Manufacturing Unit </a>
-        <a href="#" class="commo-btn-arrow bg-black btn-color-white"><svg width="20" height="16" viewBox="0 0 20 16"
-                fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0.75001 7.75001L18.75 7.75001ZM18.75 7.75001L11.75 0.749999ZM18.75 7.75001L11.75 14.75Z"
-                    fill="white" />
-                <path d="M0.75001 7.75001L18.75 7.75001M18.75 7.75001L11.75 0.749999M18.75 7.75001L11.75 14.75"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-        </a>
+
+    <div>
+        <h4 class="title-34 title--dark mb-40 mt-40"> Explore Our Manufacturing Partners</h4>
+
+        <div class="man_par_slider">
+            <img class="img-fluid" src="./images/manufacturing-partners1.webp" alt="manufacturing partners">
+            <img class="img-fluid" src="./images/manufacturing-partners2.webp" alt="manufacturing partners">
+        </div>
     </div>
 </section>
+
+<?php include 'top-footer.php'; ?>
 
 <?php include 'footer.php'; ?>

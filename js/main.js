@@ -126,6 +126,29 @@ if (slider) {
   });
 }
 
+$(document).ready(function () {
+  $(".man_par_slider").slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 5000,
+    cssEase: "linear",
+    infinite: true,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
+  });
+});
 
 // ------------------------ end slider js ------------------------//
 
